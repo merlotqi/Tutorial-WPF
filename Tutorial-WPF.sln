@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBox", "Windows\MessageBox\MessageBox.csproj", "{CD548588-86AF-46C2-80A7-BA5769EB2A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonRectangularWindow", "Windows\NonRectangularWindow\NonRectangularWindow.csproj", "{57EE0C10-2233-43B4-A0A4-71ADAC97989F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD548588-86AF-46C2-80A7-BA5769EB2A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD548588-86AF-46C2-80A7-BA5769EB2A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD548588-86AF-46C2-80A7-BA5769EB2A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD548588-86AF-46C2-80A7-BA5769EB2A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EE0C10-2233-43B4-A0A4-71ADAC97989F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EE0C10-2233-43B4-A0A4-71ADAC97989F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EE0C10-2233-43B4-A0A4-71ADAC97989F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EE0C10-2233-43B4-A0A4-71ADAC97989F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD548588-86AF-46C2-80A7-BA5769EB2A27} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{57EE0C10-2233-43B4-A0A4-71ADAC97989F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFE22586-6998-4393-B55C-0B491C1A62F0}
+	EndGlobalSection
+EndGlobal
